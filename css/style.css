@@ -1,36 +1,107 @@
 *{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
 }
 body{
-	padding-top:70px;
+	font-family:"Microsoft YaHei",微软雅黑;
+	padding-top:50px;
 	background-color:#eee;
+	line-height:2;
 }
 nav{
-    background-color:#330000;
+    background-color:#333333;
     width:100%;
-    height:70px;
+    height:50px;
     top:0;
-    overflow:hidden;
-    position:fixed;
+	position:fixed;
 }
 .nav-block{
-	margin:0 auto;
-	width:1200px;
+	padding-left:20px;
+	margin:auto;
+	width:100%;
 }
-nav.img{
+nav img{
+	padding-left:20px;
     float:left;
-    width:180px;
-    height:60px;
-    padding-top:5px;
+    width:120px;
+    height:30px;
+	padding-top:10px;
 }
-nav.ul{
-	position:relative;
+nav ul{
 	float:right;
-	line-height:45px;
+	line-height:25px;
+	padding-right:25px;
 }
-nav.li{
-	position:relative;
-	float:right;
+nav li{
+	font-size:10px;
+	float:left;
 	margin:14px;
-}    
+}
+nav a{
+	color:white;
+	text-decoration:none;
+}
+[checked=checked]{
+	color:gray;
+}
+.main,.atlas,aside{
+	margin:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:20px;
+	padding-right:20px;
+	width:auto;
+	height:auto;
+	background-color:white;
+	border:1px solid #999;
+}
+atlas img{
+	width:120px;
+	height:120px;
+	padding:20px;
+}
+figure{
+	width:150px;
+	height:150px;
+	border-style:solid;
+	border-color:#999;
+	border-width:1px;
+	margin:15px;
+}
+figcaption{
+	padding-left:35px;
+	padding-bottom:8px;
+	padding-top:10px;
+	padding-right:35px;
+}
+.main li{
+	margin-left:4em;
+}
+.main table{
+	width:100%;
+	text-align:left;
+	border-collapse:collapse;
+}
+.main th{
+	background-color:black;
+	color:white;
+}
+.main td{
+	border:1px solid #eee;
+}
+[title=tfoot]{
+	background-color:gray;
+}
+aside form{
+	padding-left:350px;
+}
+aside p{
+	color:gray;
+}
+[type=button]{
+	width:100%;
+	height:40px;
+	text-align:center;
+	background:#7FFFD4;
+	border-radius:10px;
+}
