@@ -1,6 +1,6 @@
 *{
-    margin:0px;
-    padding:0px;
+	margin:0px;
+	padding:0px;
 }
 body{
 	font-family:"Microsoft YaHei",微软雅黑;
@@ -9,19 +9,19 @@ body{
 	line-height:2;
 }
 header{
-    background-color:#333333;
-    width:100%;
-    height:50px;
-    top:0;
+	background-color:#333333;
+	width:100%;
+	height:50px;
+	top:0;
 	position:fixed;
 	padding-left:20px;
 	margin:auto;
 }
 header img{
 	padding-left:20px;
-    float:left;
-    width:120px;
-    height:30px;
+	float:left;
+	width:120px;
+	height:30px;
 	padding-top:10px;
 }
 header ul{
