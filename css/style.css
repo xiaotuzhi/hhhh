@@ -54,9 +54,12 @@ h4{color:gray;}
 	border:1px solid #999;
 }
 .atlas img{
-	width:80px;
-	height:80px;
-	padding:20px;
+	width:90px;
+	height:90px;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:0px;
+	padding-bottom:10px;
 }
 figure{
 	width:150px;
