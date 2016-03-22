@@ -41,7 +41,7 @@ header a{
 [checked=checked]{
 	color:gray;
 }
-h4{color:gray;}
+h4,span{color:gray;}
 .main,.atlas{
 	margin:20px;
 	padding-top:30px;
