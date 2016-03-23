@@ -27,7 +27,7 @@ header img{
 header ul{
 	float:right;
 	line-height:25px;
-	padding-right:45px;
+	padding-right:50px;
 }
 header li{
 	font-size:10px;
@@ -38,10 +38,9 @@ header a{
 	color:white;
 	text-decoration:none;
 }
-[checked=checked]{
+[checked=checked],h4,span{
 	color:gray;
 }
-h4,span{color:gray;}
 .main,.atlas{
 	margin:20px;
 	padding-top:30px;
