@@ -12,17 +12,14 @@ header{
 	background-color:#333333;
 	width:100%;
 	height:50px;
-	top:0;
 	position:fixed;
-	padding-left:20px;
-	margin:auto;
+	top:0;
 }
 header img{
-	padding-left:20px;
+	padding:10px 20px;
 	float:left;
 	width:120px;
 	height:30px;
-	padding-top:10px;
 }
 header ul{
 	float:right;
@@ -38,41 +35,28 @@ header a{
 	color:white;
 	text-decoration:none;
 }
-[checked=checked],h4,span{
-	color:gray;
-}
+[checked=checked],h4,span{color:gray;}
 .main,.atlas{
 	margin:20px;
-	padding-top:30px;
-	padding-bottom:30px;
-	padding-left:20px;
-	padding-right:20px;
+	padding:30px 20px;
 	width:auto;
 	height:auto;
 	background-color:white;
 	border:1px solid #999;
 }
-.atlas img{
-	width:90px;
-	height:90px;
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:0px;
-	padding-bottom:10px;
+atlas img{
+	width:20px;
+	height:20px;
+	padding:20px;
 }
 figure{
 	width:150px;
 	height:150px;
-	border-style:solid;
-	border-color:#999;
-	border-width:1px;
+	border:1px solid #999;
 	margin:15px;
 }
 figcaption{
-	padding-left:35px;
-	padding-bottom:8px;
-	padding-top:10px;
-	padding-right:35px;
+	padding:10px 35px 8px 35px;
 }
 .main li{
 	margin-left:4em;
@@ -94,10 +78,7 @@ figcaption{
 }
 aside{
 	margin:20px;
-	padding-top:30px;
-	padding-bottom:30px;
-	padding-left:20px;
-	padding-right:20px;
+	padding:30px 20px;
 	width:92%;
 	height:auto;
 	background-color:white;
@@ -123,7 +104,6 @@ textarea{
 }
 footer{
 	background-color:#333333;
-	margin:auto;
 	width:100%;
 	height:50px;
 	text-align:center;
