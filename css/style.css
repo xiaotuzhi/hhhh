@@ -35,7 +35,7 @@ header a{
 	color:white;
 	text-decoration:none;
 }
-[checked=checked],h4,span{color:gray;}
+a:hover,h4,span{color:gray;}
 .main,.atlas{
 	margin:20px;
 	padding:30px 20px;
