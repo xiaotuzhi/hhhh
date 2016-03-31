@@ -30,6 +30,7 @@ header li{
 	font-size:10px;
 	float:left;
 	margin:12px;
+	padding-right:20px;
 }
 header a{
 	color:white;
@@ -45,8 +46,8 @@ header a{
 	border:1px solid #999;
 }
 .atlas img{
-	width:80px;
-	height:80px;
+	width:100px;
+	height:100px;
 	padding:20px;
 }
 figure{
